@@ -1,0 +1,25 @@
+{
+  "name": "pw-api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "title": "npx playwright test -g"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.2",
+    "dotenv": "^17.3.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.3.0"
+  }
+}
